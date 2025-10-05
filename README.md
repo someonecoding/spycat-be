@@ -63,6 +63,7 @@ spycat-backend/
 git clone <repo-url>
 cd spycat-backend
 cp .env.example .env
+docker network create spycat-network
 docker compose up --build
 docker compose exec web python manage.py migrate
 ```
