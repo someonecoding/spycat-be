@@ -1,0 +1,26 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.env
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile
+
+# Environment
+.env
+*.env
